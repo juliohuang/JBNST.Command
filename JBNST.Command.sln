@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JBNST.Command.Test", "JBNST.Command.Test\JBNST.Command.Test.csproj", "{022E5361-694E-4502-B009-D9309F1CB87B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JBNST.Command", "JBNST.Command\JBNST.Command.csproj", "{A812CCCA-8DF2-4402-91EE-107ECF5DA49E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{022E5361-694E-4502-B009-D9309F1CB87B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022E5361-694E-4502-B009-D9309F1CB87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022E5361-694E-4502-B009-D9309F1CB87B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022E5361-694E-4502-B009-D9309F1CB87B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A812CCCA-8DF2-4402-91EE-107ECF5DA49E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A812CCCA-8DF2-4402-91EE-107ECF5DA49E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A812CCCA-8DF2-4402-91EE-107ECF5DA49E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A812CCCA-8DF2-4402-91EE-107ECF5DA49E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B31BA517-A1B7-48CB-9D93-C090EFE1A866}
+	EndGlobalSection
+EndGlobal
