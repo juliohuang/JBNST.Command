@@ -495,7 +495,7 @@ namespace JBNST.Command
 
         private static List<string> SchemaColumns(DataTable schemaTable)
         {
-            return SchemaColumns(schemaTable, true);
+            return SchemaColumns(schemaTable, false);
         }
 
         private static List<string> SchemaColumns(DataTable schemaTable, bool toLower)

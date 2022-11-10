@@ -82,7 +82,7 @@ namespace JBNST.Command.Test
                 .Read<List<Tuple<int, string, string>>>(new { id = 1 });
 
             var item = list[0];
-
+            
             Console.WriteLine("{0},{1},{2}", item.Item1, item.Item2, item.Item3);
         }
 
@@ -100,11 +100,11 @@ namespace JBNST.Command.Test
         [TestMethod]
         public void TestDictionary()
         {
-            var map = GetCommand()
+            var map = GetCommand3()
                 .Read<Dictionary<string, object>>(new { id = 1 });
 
 
-            Console.WriteLine("{0},{1},{2}", map["id"], map["code"], map["name"]);
+            Console.WriteLine("{0},{1},{2},{3}", map["id"], map["code"], map["name"], map["entityId"]);
         }
 
         private static Command GetCommand()
@@ -117,6 +117,13 @@ namespace JBNST.Command.Test
         private static Command GetCommand2()
         {
             return Commands.GetCommand("select 1 id, 'jbnst' code, '½³±¶' name\r\nunion all\r\nselect 2 id, 'jbnst2' code, '½³±¶2' name");
+        }
+
+        private static Command GetCommand3()
+        {
+
+
+            return Commands.GetCommand("select 1 id, 'jbnst' code, '½³±¶' name, 9 entityId");
         }
     }
 }
